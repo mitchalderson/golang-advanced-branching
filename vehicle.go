@@ -28,7 +28,7 @@ const (
 	extraNegative rating = -1.2
 )
 
-type vehicle struct{}
+type vehicle interface{}
 
 type car struct {
 	model       string
